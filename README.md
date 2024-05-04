@@ -3,7 +3,7 @@
 ## Part 1: **Schema Design**
 
 ### **Part One: Medical Center**
-[Schema](medical_center.sql)
++ [Schema](medical_center.sql)
 ```
 Design the schema for a medical center.
 
@@ -13,7 +13,7 @@ Design the schema for a medical center.
 - During a visit, a patient may be diagnosed to have one or more diseases.
 ```
 ### **Part Two: Craigslist**
-[Schema](craiglist.sql)
++ [Schema](craiglist.sql)
 ```
 Design a schema for Craigslist! Your schema should keep track of the following
 
@@ -23,7 +23,7 @@ Design a schema for Craigslist! Your schema should keep track of the following
 - Categories that each post belongs to
 ```
 ### **Part Three: Soccer League**
-[Schema](soccer_league.sql)
++ [Schema](soccer_league.sql)
 ```
 Design a schema for a simple sports league. Your schema should keep track of
 
@@ -42,13 +42,13 @@ We’ve provided you with a handful of SQL files that will create some databases
 ```
 ---
 ## Schema One: Outer Space
-[Original](outer_space.sql)
-[Fixed](outer_space_fixed.sql)
++[Original](outer_space.sql)
++ [Fixed](outer_space_fixed.sql)
 ​
 ## Schema Two: Air Traffic
-[Original](air_traffic.sql)
-[Fixed](air_traffic_fixed.sql)
++ [Original](air_traffic.sql)
++ [Fixed](air_traffic_fixed.sql)
 ​---
 ## Schema Three: Music
-[Original](music.sql)
-[Fixed](music_fixed.sql)
++ [Original](music.sql)
++ [Fixed](music_fixed.sql)
