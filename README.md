@@ -38,7 +38,7 @@ Design a schema for a simple sports league. Your schema should keep track of
 ---
 # Part 2: **Schema Critique**
 ## Schema One: Outer Space
-+[Original](outer_space.sql) 
++ [Original](outer_space.sql) 
 + [Fixed](outer_space_fixed.sql) 
 ## Schema Two: Air Traffic
 + [Original](air_traffic.sql) 
