@@ -18,13 +18,13 @@ CREATE TABLE visits(
   patient_id INTEGER REFERENCES patients(id),
   date TEXT NOT NULL
 );
+CREATE TABLE diseases(
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  description TEXT NOT NULL
+);
 CREATE TABLE patients_diagnosis(
   id SERIAL PRIMARY KEY,
   visit_id INTEGER REFERENCES visits (id),
   disease_id INTEGER REFERENCES diseases(id)
 );
-CREATE TABLE diseases(
-  id SERIAL PRIMARY KEY,
-  name TEXT NOT NULL,
-  description TEXT NOT NULL
-)
