@@ -37,23 +37,12 @@ Design a schema for a simple sports league. Your schema should keep track of
 ```
 ---
 # Part 2: **Schema Critique**
-```
-We’ve provided you with a handful of SQL files that will create some databases and populate them with some data. Run each of the seed files and take a look at the data that’s generated. Next, think about how you could improve the schema. Finally, modify the original seed files based on your updated schema!
-```
----
-
 ## Schema One: Outer Space
 +[Original](outer_space.sql) 
-- [Fixed](outer_space_fixed.sql) 
-
----​
-
++ [Fixed](outer_space_fixed.sql) 
 ## Schema Two: Air Traffic
 + [Original](air_traffic.sql) 
-+ [Fixed](air_traffic_fixed.sql) 
-+ 
-​---
-
++ [Fixed](air_traffic_fixed.sql)  
 ## Schema Three: Music 
 + [Original](music.sql) 
 + [Fixed](music_fixed.sql) 
