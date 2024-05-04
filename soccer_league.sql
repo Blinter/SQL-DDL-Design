@@ -5,7 +5,7 @@ CREATE DATABASE soccer_league;
 \c soccer_league
 CREATE TABLE teams(
   id SERIAL PRIMARY KEY,
-  name TEXT NOT NULL,
+  name TEXT NOT NULL
 );
 CREATE TABLE goals(
   id SERIAL PRIMARY KEY,
@@ -20,17 +20,17 @@ CREATE TABLE players(
 CREATE TABLE referees(
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL
-    gameid INTEGER REFERENCES game (id),
+    gameid INTEGER REFERENCES game (id)
 );
 CREATE TABLE matches(
     id SERIAL PRIMARY KEY,
     team1 INTEGER REFERENCES teams(id),
     team2 INTEGER REFERENCES teams(id),
     season INTEGER REFERENCES seasons(id),
-    date TEXT NOT NULL,
+    date TEXT NOT NULL
 );
 CREATE TABLE seasons(
     id SERIAL PRIMARY KEY
     start TEXT NOT NULL,
-    end TEXT NOT NULL,
+    end TEXT NOT NULL
 );
